@@ -10,7 +10,7 @@ body {
     align-items: center;
     background-color: blanchedalmond;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 .viewer {
     background-color: whitesmoke;
@@ -19,17 +19,21 @@ body {
     display: flex;
     flex-direction: row;
     position: relative;
+    
 }
 
 .image {
     flex-grow: 15;
-    height: 100%;
+    max-height: 100%;
     position: relative;
 }
 
 #first-photo {
-    width: 100%;
-    height: auto;
+    height: auto; 
+    width: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+    
 
 }
 .description {
